@@ -1,0 +1,50 @@
+.detail{
+    height:100%;
+}
+.detail div img{
+    width:100%;
+    height:100%;
+    padding-top:50px;
+}
+.detail div h2{
+    margin: 16px auto;
+    border-left: 16px solid RGB(228, 200, 156);
+    font-size: 16px;
+    padding-left: 4px;
+}
+.detail div h3{
+    height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size:12px;
+    color:#444;
+}
+.detail div h3 span{
+    padding-right:5px;
+}
+.detail div p{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size:12px;
+    color:#444;
+}
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    font-size: 14px;
+    min-width: 156px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0;
+    border-radius: 18px;
+    color: #fff; 
+}

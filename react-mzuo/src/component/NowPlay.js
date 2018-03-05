@@ -28,7 +28,7 @@ class NowPlay extends Component{
                     return(
                        
                             <li key={item.name}>
-                            <Link to="/Detail">
+                            <Link to={"/Detail/"+item.id}>
                                 <img src={item.cover.origin} alt=""/>
                                 <div>
                                 <h4>{item.name}</h4>

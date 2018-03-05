@@ -5,6 +5,8 @@ body {
   font-size:16px;
   width:100%;
   height:100%;
+  background: #ebebeb;
+  overflow-x: auto;
 }
 html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,legend,img,fieldset,section,article,aside,header,footer,nav,main,figure,figcaption{margin:0;padding:0;}
 *{box-sizing:border-box;}
@@ -15,3 +17,6 @@ b,strong{font-weight:100;}
 i,em{font-style:normal;}
 img{display:block;border:0;}
 html{font-size:31.25vw;}
+#root{
+  height:100%;
+}
